@@ -2,25 +2,25 @@
 cask "ghostdock" do
   binary "ghostdock", target: "gdock"
 
-  version "0.24.1"
+  version "0.25.0"
 
   on_macos do
     on_arm do
-      sha256 "e092b890b832c978fbaa112f2688657918d1fcd0a70ddc3728640c908043361e"
+      sha256 "6e10dc1cb686df2d3b8f6a521c0db7579e33af2f31c048c50940fc84d13569ce"
       url "https://github.com/brainchimps/ghostdock-cli/releases/download/v#{version}/ghostdock_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "ed826c4bd1160690063d7176733f934a564f2df23b7ac36c219957a6afb615c0"
+      sha256 "b69ed8f87764a8a2e7276cd54095c45c5ed8865181b040dfd469e7348e2161f7"
       url "https://github.com/brainchimps/ghostdock-cli/releases/download/v#{version}/ghostdock_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "d438851350924cbfc6ef8852f2a6c7f8c51b3caba1d2ea66b395f9639b82915e"
+      sha256 "d0484643a84fe8f2407b2166034fed950eb217d0daf09297bacb3ab34995f6d7"
       url "https://github.com/brainchimps/ghostdock-cli/releases/download/v#{version}/ghostdock_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8477a51569196360b7ef8ad1a1be9a01f89a03a348ed435d370bf6c1173ec83d"
+      sha256 "8b5c476f788a9d4eb536c2f7f025fbe19f5ea08d7b08dd6ccd5917f76e16b083"
       url "https://github.com/brainchimps/ghostdock-cli/releases/download/v#{version}/ghostdock_#{version}_linux_amd64.tar.gz"
     end
   end
